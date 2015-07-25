@@ -151,6 +151,10 @@ ABOUT SECTION
     margin-right: auto;
     border-radius: 100%;
 }
+#services .iconsize{
+    width: 100px;
+    height: 100px;
+}
 
 /*================================
 PORTFOLIO SECTION
