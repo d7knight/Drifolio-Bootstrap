@@ -32,7 +32,7 @@ ul{padding: 0;}
 a{color: #ea9312}
 a:hover{color: #c3c3c3; text-decoration: none;}
 
-#services{text-align: center;}
+#interests {text-align: center;}
 .col-md-4, .col-md-6{padding-bottom: 50px;}
 .col-md-3 {padding: 0;}
 
@@ -151,7 +151,7 @@ ABOUT SECTION
     margin-right: auto;
     border-radius: 100%;
 }
-#services .iconsize{
+#interests .iconsize{
     width: 100px;
     height: 100px;
 }
@@ -159,7 +159,7 @@ ABOUT SECTION
 /*================================
 PORTFOLIO SECTION
 ================================*/
-#portfolio{
+#challenges {
     background: #efefef;
     margin-top: 50px;
     padding: 30px 0;
