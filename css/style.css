@@ -20,7 +20,7 @@ h4{font-size: 18px; line-height: 1.4em;}
 
 p{
     letter-spacing: 1px;
-    color: #c3c3c3;
+    color: black;
     font-weight: lighter;
 }
 
@@ -29,7 +29,7 @@ p{
 DEFAULT STYLE & FORMATING
 ================================*/
 ul{padding: 0;}
-a{color: #ea9312}
+
 a:hover{color: #c3c3c3; text-decoration: none;}
 
 #interests {text-align: center;}
@@ -44,8 +44,7 @@ a:hover{color: #c3c3c3; text-decoration: none;}
 
 hr.separetor{
     width: 80px;
-    color: #363942;
-    border-top: 2px solid #ea9312;
+
 }
 
 
@@ -60,7 +59,7 @@ hr.separetor{
 
 .btn-default:hover{
     background: none;
-    color: #ea9312;
+
 }
 
 .btnicon, .brandicon{
@@ -80,7 +79,8 @@ HERO AREA
 
 }
 #hero-title{
-    font: 90px/1.1em 'opensans-bold', sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
     color: #01060a;
     letter-spacing: -2px;
     margin: -45px auto 10px auto;
@@ -88,7 +88,7 @@ HERO AREA
 
 }
 #hero-subtext{
-    font: 20px/1.1em 'opensans-bold', sans-serif;
+    font-size: 20px;
 
 }
 
@@ -166,10 +166,8 @@ ABOUT SECTION
 PORTFOLIO SECTION
 ================================*/
 #challenges {
-    background: #efefef;
-    margin-top: 50px;
-    padding: 30px 0;
-    text-align: center;
+
+    text-align: left;
 }
 
 #shotsByPlayerId li{
@@ -199,7 +197,6 @@ PORTFOLIO SECTION
     overflow: hidden;
 }
 
-#shotsByPlayerId a:hover{color: #ea9312;}
 
 #shotsByPlayerId h3{
     text-align: left;
@@ -253,11 +250,9 @@ FOOTER SECTION
 
 footer{
     text-align: center;
-    padding: 50px 0;
-    background: #363942;
+
 }
 
-footer p, footer .bigicon {color: #7e7e7e;}
 
 .footerlinks{margin: 30px 0;}
 .footerlinks li{
@@ -275,8 +270,7 @@ footer p, footer .bigicon {color: #7e7e7e;}
     font-size: 2em;
 }
 
-.footersocial li a {color: #7e7e7e;}
-.footersocial li a:hover {color: #ea9312;}
+
 
 /*================================
 FOLLOW BUTTON
@@ -316,9 +310,6 @@ FOLLOW BUTTON
     color: #333;
 }
 
-.dribbble-follow-button .label:active {            
-     box-shadow: 0 1px 5px rgba(0,0,0,.15) inset;
-}
 
 .dribbble-follow-button .count {
     margin-left: 5px;
@@ -395,48 +386,66 @@ FOLLOW BUTTON
 
 .javascript {
     width: 70%;
-    -moz-animation: javascript 2s ease;
-    -webkit-animation: javascript 2s ease;
+    -moz-animation: javascript 25s ease;
+    -webkit-animation: javascript 25s ease;
 }
 .node {
     width: 65%;
-    -moz-animation: node 2s ease;
-    -webkit-animation: node 2s ease;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
 }
+.mongo {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+.unix {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+.mysql {
+    width: 65%;
+    -moz-animation: node 25s ease;
+    -webkit-animation: node 25s ease;
+}
+
 .java {
     width: 70%;
-    -moz-animation: java 2s ease;
-    -webkit-animation: java 2s ease;
+    -moz-animation-direction: initial;
+    -moz-animation: java 25s ease;
+    -webkit-animation: java 25s ease;
 }
 .cplusplus {
     width: 50%;
-    -moz-animation: cplusplus 2s ease;
-    -webkit-animation: cplusplus 2s ease;
+    -moz-animation: cplusplus 25s ease;
+    -webkit-animation: cplusplus 25s ease;
 }
 .css {
     width: 50%;
-    -moz-animation: css 2s ease;
-    -webkit-animation: css 2s ease;
+    -moz-animation: css 25s ease;
+    -webkit-animation: css 25s ease;
 }
 .php {
     width: 50%;
-    -moz-animation: php 2s ease;
-    -webkit-animation: php 2s ease;
+    -moz-animation: php 25s ease;
+    -webkit-animation: php 25s ease;
 }
 .html5 {
     width: 70%;
-    -moz-animation: html5 2s ease;
-    -webkit-animation: html5 2s ease;
+    -moz-animation: html5 25s ease;
+    -webkit-animation: html5 25s ease;
+
 }
 .jquery {
     width: 50%;
-    -moz-animation: jquery 2s ease;
-    -webkit-animation: jquery 2s ease;
+    -moz-animation: jquery 25s ease;
+    -webkit-animation: jquery 25s ease;
 }
 
 @-moz-keyframes javascript {
     0%   { width: 0px;  }
-    100% { width: 70%;  }
+    100% { width: 80%;  }
 }
 @-moz-keyframes node {
     0%   { width: 0px;  }
@@ -448,7 +457,7 @@ FOLLOW BUTTON
 }
 @-moz-keyframes cplusplus {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 80%;  }
 }
 @-moz-keyframes css {
     0%   { width: 0px;  }
@@ -464,16 +473,27 @@ FOLLOW BUTTON
 }
 @-moz-keyframes jquery {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 30%;  }
 }
-@-moz-keyframes rubiks {
+
+@-moz-keyframes  mysql{
+     0%   { width: 0px;  }
+     100% { width: 60%;  }
+
+ }
+@-moz-keyframes  unix{
     0%   { width: 0px;  }
-    100% { width: 99%;  }
+    100% { width: 70%;  }
+}
+@-moz-keyframes  mongo{
+    0%   { width: 0px;  }
+    100% { width: 10%;  }
+
 }
 
 @-webkit-keyframes javascript {
     0%   { width: 0px;  }
-    100% { width: 70%;  }
+    100% { width: 80%;  }
 }
 @-webkit-keyframes node {
     0%   { width: 0px;  }
@@ -485,7 +505,7 @@ FOLLOW BUTTON
 }
 @-webkit-keyframes cplusplus {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 80%;  }
 }
 @-webkit-keyframes css {
     0%   { width: 0px;  }
@@ -501,10 +521,23 @@ FOLLOW BUTTON
 }
 @-webkit-keyframes jquery {
     0%   { width: 0px;  }
-    100% { width: 50%;  }
+    100% { width: 30%;  }
 }
-.main-col { padding-right: 5%; }
-.columns { margin-bottom: 36px;}
+@-webkit-keyframes  mysql{
+    0%   { width: 0px;  }
+    100% { width: 60%;  }
+
+}
+@-webkit-keyframes  unix{
+    0%   { width: 0px;  }
+    100% { width: 70%;  }
+}
+@-webkit-keyframes  mongo{
+    0%   { width: 0px;  }
+    100% { width: 10%;  }
+
+}
+
 .marginfix{
     margin-left: 20px;
     margin-right: 20px;
